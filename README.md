@@ -1,24 +1,27 @@
-# README
+<h1>Je me présente</h1>
+<h4>Réalisation by Edouard, Léa</h4>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h5>Heroku (lien du site)</h5>
+    >  <a href="https://damp-taiga-85747.herokuapp.com/">Formulaire en ligne</a>
 
-Things you may want to cover:
+<h5>Github</h5>
 
-* Ruby version
+Etape 1:   
 
-* System dependencies
+    > git clone https://github.com/SatanPetitCoeur/Je-me-presente.git
 
-* Configuration
+Etape 2: 
 
-* Database creation
+    > cd Je-me-presente
+    
+Etape 3:
 
-* Database initialization
+    > rake db:migrate 
+     
+Etape 4:
 
-* How to run the test suite
+    > rails serveur
+   
+Etape 5:  
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    > aller sur :  http://localhost:3000/
